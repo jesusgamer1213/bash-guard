@@ -1,0 +1,8 @@
+{
+  "name": "jesusgamer1213-marketplace",
+  "description": "Claude Code plugins by jesusgamer1213",
+  "owner": { "name": "jesusgamer1213" },
+  "plugins": [
+    { "name": "bash-guard", "source": "./" }
+  ]
+}
