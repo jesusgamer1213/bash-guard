@@ -3,5 +3,5 @@
   "displayName": "Bash Guard",
   "description": "Blocks dangerous shell commands before Claude runs them",
   "author": { "name": "jesusgamer1213" },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
